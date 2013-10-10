@@ -31,7 +31,7 @@ For Visitors
 
 This section describes how to install the plugin and get it working.
 
-1. Upload all the contents of the `text-to-share` folder to the `/wp-content/plugins/` directory
+1. Upload the entire `text-to-share` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Add or edit a particular post
 1. In the content editor, highlight a particular piece of text 
