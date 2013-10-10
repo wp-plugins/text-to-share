@@ -3,7 +3,7 @@ Contributors: webdisrupt
 Tags: share, facebook, twitter, text to share, text, quote
 Requires at least: 3.0.1
 Tested up to: 3.6.1
-Stable tag: 0.1 
+Stable tag: 0.2 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,18 +11,18 @@ Text to Share is a plugin that allows the visitor to share a selected quote on m
 
 == Description ==
 
-Text to Share is a plugin that gives editors the option to have a neat way of sharing quotes with the content. All quotes would be set when adding or editing a particular post. This sharing tool would then allow visitors to share a quote on Facebook and Twitter. 
+Text to Share is a plugin that offers editors a neat way of how to share quotes that are within the various posts. All quotes would need be set via the Wordpress Admin when adding or editing a particular post. This sharing tool would then allow visitors to share a quote on Facebook and Twitter. 
 
 The features of this plugin are:
 
-Admins and Editors
+For Admins and Editors
 
 * Simple and neat design
 * Selecting text to share with a click of a button
 * Easy to customise and style according to design of website
 * Increase engagement on major social networks
 
-Visitors
+For Visitors
 
 * Simple sharing mechanism to Facebook and Twitter
 * Automatic redirect to social networks
@@ -30,8 +30,6 @@ Visitors
 == Installation ==
 
 This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Upload all the contents of the `text-to-share` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -41,7 +39,25 @@ e.g.
 
 == Frequently Asked Questions ==
 
-We will be posting any FAQs in the near future
+= How do you set a quote? =
+
+1. Login to Wordpress Admin
+1. Add or edit a particular post
+1. In the content editor, highlight a particular piece of text
+1. Click on the 'Text To Share' icon and voila you are done
+
+= How do I modify the design or style of the plugin? =
+
+1. Download all the files via FTP/SFTP from the directory `/wp-content/plugins/text-to-share`
+1. Make a back-up of the files you are going to change
+1. Go into the CSS folder and make all necessary changes to the `main.css`
+
+= How do I change the text for the share buttons? =
+
+1. Download all the files via FTP/SFTP from the directory `/wp-content/plugins/text-to-share`
+1. Make a back-up of the files you are going to change
+1. Open the INC folder and open config.php
+1. Change the values for "TEXT_TO_SHARE_TWEET_TEXT" and "TEXT_TO_SHARE_FB_TEXT" to the desired value
 
 == Screenshots ==
 
@@ -55,3 +71,6 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 = 0.1 =
 Initial Build
+
+= 0.2 = 
+Update to documentation
