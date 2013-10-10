@@ -11,7 +11,7 @@ Text to Share is a plugin that allows the visitor to share a selected quote on m
 
 == Description ==
 
-Text to Share is a plugin that gives editors the option to have a neat way of sharing quotes with the content. All quotes would be set when adding or editing a particular post. This sharing tool would then allow visitors to share a quote on Facebook and Twitter. 
+Text to Share is a plugin that gives editors the option to have a neat way of sharing quotes that are within their own content. All quotes would be set when adding or editing a particular post. This sharing tool would then allow visitors to share a quote on Facebook and Twitter. 
 
 The features of this plugin are:
 
