@@ -3,7 +3,7 @@
   Plugin Name: Text To Share
   Plugin URI: http://www.webdisrupt.com/wordpress-text-to-share-plugin
   Description: A plugin that allows a piece of text to be shared across social platforms.
-  Version: 0.1
+  Version: 0.3
   Author: Web Disrupt
   Author URI: http://www.webdisrupt.com
   License: GNU General Public License v2
