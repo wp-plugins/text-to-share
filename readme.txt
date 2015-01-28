@@ -2,8 +2,8 @@
 Contributors: webdisrupt
 Tags: share, facebook, twitter, text to share, text, quote
 Requires at least: 3.0.1
-Tested up to: 3.6.1
-Stable tag: 0.2 
+Tested up to: 4.1.0
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,3 +74,8 @@ Initial Build
 
 = 0.2 = 
 Update to documentation
+
+= 0.3 =
+1. Changes to HTML syntax to remove redundant tags.
+1. Improvements to CSS style and overall design.
+1. Fix to Twitter sharing so as not to encode non alpha characters

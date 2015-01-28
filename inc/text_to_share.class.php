@@ -3,7 +3,7 @@
   Plugin Name: Text To Share
   Plugin URI: http://www.webdisrupt.com/wordpress-text-to-share-plugin
   Description: Main class for plugin that allows a piece of text to be shared across social platforms.
-  Version: 0.1
+  Version: 0.3
   Author: Web Disrupt
   Author URI: http://www.webdisrupt.com
   License: GNU General Public License v2
@@ -76,7 +76,7 @@ class Text_To_Share
 	private function tts_replace_url($content="", $url="") {
 		return preg_replace(
 					array('/\[\*TEXT\*\]/','/\[\*URL\*\]/'), 
-					array(urlencode($content), urlencode(get_permalink())), 
+					array($content, urlencode(get_permalink())), 
 					$url);
 	}
 	
@@ -91,10 +91,10 @@ class Text_To_Share
 		//Check if content has a string length of more than 1 and if so build the HTML
 		if(strlen($content) > 1)
 		{		
-			$html_to_share = '<div class="text-to-share"><p class="text-to-share-content"><span class="text-to-share-open">"</span>'.$content.'<span class="text-to-share-close">"</span></p>';
+			$html_to_share = '<div class="text-to-share"><blockquote><p class="text-to-share-content">'.$content.'</p></blockquote>';
 			$html_to_share .= '<div class="text-to-share-buttons"><a href="'.$this->tts_replace_url($content, TEXT_TO_SHARE_TWITTER_URL).'" title="Share on Twitter" class="text-to-share-twitter"><span>'.TEXT_TO_SHARE_TWEET_TEXT.'</span></a>';
 			$html_to_share .= '<a href="'.$this->tts_replace_url($content, TEXT_TO_SHARE_FACEBOOK_URL).'" title="Share on Facebook" class="text-to-share-facebook"><span>'.TEXT_TO_SHARE_FB_TEXT.'</span></a>
-			<p class="text-to-share-credits">Wordpress Text To Share Plugin - webdisrupt.com</p>
+			<p class="text-to-share-credits"><a href="http://webdisrupt.com" target="_blank">Wordpress Text To Share Plugin by webdisrupt.com</a></p>
 			</div></div>';
 		}
 		
