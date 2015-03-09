@@ -1,0 +1,11 @@
+.text-to-share {font-family:  Georgia, Arial, Verdana; margin-top:20px;}
+.text-to-share blockquote {background: url('../img/opening-quote.png') top left no-repeat; padding-left: 55px; border:0px;}
+.text-to-share blockquote p {padding-right: 35px; background: url('../img/closing-quote.png') bottom right no-repeat;}
+.text-to-share-content { width:95%; padding: 0px 10px 0px 10px; margin: 0px auto; line-height:40px; font-size: 28px;}
+.text-to-share-buttons {padding: 0px 0 0 59px; }
+.text-to-share-twitter, .text-to-share-facebook {display:block; float:left; height: 43px; margin-right: 10px; padding: 5px 15px; text-align: center; text-decoration:none; background-repeat:no-repeat; text-indent:32px; font-family:Arial,verdana; font-size:14px; border:0px!important;}
+.text-to-share-twitter {background-image:url('../img/twitter.png');}
+.text-to-share-facebook {background-image:url('../img/facebook.png');}
+.text-to-share-twitter:hover {color:#0084B4; text-decoration:underline;}
+.text-to-share-facebook:hover {color:#3B5998; text-decoration:underline;}
+.text-to-share-clear {clear:both; display:block; margin: 0px; padding: 0px;}
