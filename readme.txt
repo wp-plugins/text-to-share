@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: webdisrupt
-Tags: share, facebook, twitter, text to share, text, quote
+Tags: share, facebook, twitter, text to share, text, quote, easy sharing, blockquote
 Requires at least: 3.0.1
-Tested up to: 4.1.0
-Stable tag: 0.3
+Tested up to: 4.1.1
+Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,10 @@ This section describes how to install the plugin and get it working.
 1. Open the INC folder and open config.php
 1. Change the values for "TEXT_TO_SHARE_TWEET_TEXT" and "TEXT_TO_SHARE_FB_TEXT" to the desired value
 
+= "I would like to see a new feature, what do I do?" =
+
+1. Please let us know through the support tab as we would love to hear from you!
+
 == Screenshots ==
 
 1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
@@ -79,3 +83,6 @@ Update to documentation
 1. Changes to HTML syntax to remove redundant tags.
 1. Improvements to CSS style and overall design.
 1. Fix to Twitter sharing so as not to encode non alpha characters
+
+= 0.4 =
+1. Minor fixes to CSS
