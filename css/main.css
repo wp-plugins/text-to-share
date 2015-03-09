@@ -8,5 +8,4 @@
 .text-to-share-facebook {background-image:url('../img/facebook.png');}
 .text-to-share-twitter:hover {color:#0084B4; text-decoration:underline;}
 .text-to-share-facebook:hover {color:#3B5998; text-decoration:underline;}
-.text-to-share-credits {clear:both; display:block;}
-.text-to-share-credits a {color:#ccc; font-size:8px;}
+.text-to-share-clear {clear:both; display:block; margin: 0px; padding: 0px;}
